@@ -55,39 +55,51 @@ Below are some word clouds showing prominent words from each dataset as well:
 __'is_depression = 1':__
 
 <div>
-<img src="./img/cloud-Depression.png" width="600"/>
+<img src="./img/cloud-Depression.png" width="300"/>
 </div>
 
 __'is_depression = 0':__
 
 <div>
-<img src="./img/cloud-Undiag.png" width="600"/>
+<img src="./img/cloud-Undiag.png" width="300"/>
 </div>
 
 ### Modeling
 The baseline model, the _Multinomial Naive Bayes Model_ (when trained on the adjusted, preprocessed data with problematic words removed), produced a __74% Accuracy Score with a 72% Recall score__, which is better than the 50% score that random guessing would produce, but leaves room for improvement. The confusion matrix for this model is below:
 
-![](./img/Baseline-Adjusted_Data.png)
+<div>
+<img src="./img/Baseline-Adjusted_Data.png" width="400"/>
+</div>
 
 The strongest model trained on this data was the _Linear Support Vector Classifier_, which produced a __89% Accuracy Score with a 94% Recall score__, whose confusion matrix can be seen here:
 
-![](./img/SVC.png)
+<div>
+<img src="./img/SVC.png" width="400"/>
+</div>
 
 This model performed extremely well considering the limited dataset, and proves that there is absolute cause to collect a new, larger dataset to create a system for identification of mental disorder characteristics through reddit posts. The strongest coefficients within this model can be seen in this visualization
 
-![](./img/coef-FinalModel.png)
+<div>
+<img src="./img/coef-FinalModel.png" width="400"/>
+</div>
 
 All model scores can be seen in this dataframe:
 
-![](./img/ML_scores.PNG)
+<div>
+<img src="./img/ML_scores.png" width="400"/>
+</div>
 
 The analysis also touches on and identifies the __most prominent bigrams__ in the corpus, or in other words, what pairings of words appear more frequently in each class. Below is a visualization of common bigrams in the 'is_depression=1' class:
 
-![](./img/Depression_Bigrams.png)
+<div>
+<img src="./img/Depression_Bigrams.png" width="400"/>
+</div>
 
 Finally, the analysis also creates a high scoring __Word2Vec Model using GloVe__ with a __90% Accuracy score and 85% Recall score__:
 
-![](./img/Glove_100-Random_Forest.png)
+<div>
+<img src="./img/Glove_100-Random_Forest.png" width="400"/>
+</div>
 
 
 ***
