@@ -72,7 +72,7 @@ This model performed extremely well considering the limited dataset, and proves 
 
 All model scores can be seen in this dataframe:
 
-![](./img/ML_scores.png)
+![](./img/ML_scores.PNG)
 
 The analysis also touches on and identifies the __most prominent bigrams__ in the corpus, or in other words, what pairings of words appear more frequently in each class. Below is a visualization of common bigrams in the 'is_depression=1' class:
 
