@@ -126,5 +126,23 @@ The obvious next step is to begin the large data collection process on a more tr
 As stated earlier, there are extremely limited resources to continue this research. However, there is [another, similar dataset with users online posts and their self-reported Meyers-Briggs Personality Type (MBTI)](https://www.kaggle.com/datasets/datasnaek/mbti-type). It is __extremely important__ to note that there is __increasingly high evidence that these personality types are not reliable indicators of a personality type__, and there is __very little data__ to back up the assertions of an MBTI test. 
 
 That being said, while more accurate, reliable, and in-depth data is in the process of being collected, I plan to conduct a follow up analysis on how the methods used in this analysis may apply rto the MBTI test, and __more importantly__, to identify if there is any overlap between the results gleaned from the depression data and MBTI data that may help further inform the results discovered here.
+
+***
+
+### More Information
+The iterative model testing and interpretation of results can be found [in this jupyter notebook](./final_nb.ipynb).
+The final presentation of the findings of the analysis [can be viewed here](./nlp_depress_pres.pdf).
+
+### Repository Structure
+
+```
+├── data
+├── img
+├── README.md
+├── final_nb.ipynb
+├── nb1.ipynb
+├── nlp_depress_pres.pdf
+├── requirements.txt
+```
 ***
 ***
