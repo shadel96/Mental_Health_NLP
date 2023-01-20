@@ -80,13 +80,13 @@ The strongest model trained on this data was the _Linear Support Vector Classifi
 This model performed extremely well considering the limited dataset, and proves that there is absolute cause to collect a new, larger dataset to create a system for identification of mental disorder characteristics through reddit posts. The strongest coefficients within this model can be seen in this visualization
 
 <div>
-<img src="./img/coef-FinalModel.PNG" width="400"/>
+<img src="./img/coef-FinalModel.png" width="400"/>
 </div>
 
 All model scores can be seen in this dataframe:
 
 <div>
-<img src="./img/ML_scores.png" width="400"/>
+<img src="./img/ML_scores.PNG" width="400"/>
 </div>
 
 The analysis also touches on and identifies the __most prominent bigrams__ in the corpus, or in other words, what pairings of words appear more frequently in each class. Below is a visualization of common bigrams in the 'is_depression=1' class:
