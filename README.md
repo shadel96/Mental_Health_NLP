@@ -45,6 +45,9 @@ Additionally, the analysis briefly explores __Word Embeddings, with Word2Vec mod
 ## Results
 ### EDA
 Initial analysis of the corpus provides some interesting takeaways as to the prevalence of specific words throughout, particularly in the half of the data labeled as 'is_depressed=1':
+<div>
+<img src="./img/commonDepressedWords.png" width="500"/>
+</div>
 ![](./img/commonDepressedWords.png)
 
 Below are some word clouds showing prominent words from each dataset as well:
