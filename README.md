@@ -45,20 +45,24 @@ Additionally, the analysis briefly explores __Word Embeddings, with Word2Vec mod
 ## Results
 ### EDA
 Initial analysis of the corpus provides some interesting takeaways as to the prevalence of specific words throughout, particularly in the half of the data labeled as 'is_depressed=1':
+
 <div>
-<img src="./img/commonDepressedWords.png" width="500"/>
+<img src="./img/commonDepressedWords.png" width="600"/>
 </div>
-![](./img/commonDepressedWords.png)
 
 Below are some word clouds showing prominent words from each dataset as well:
 
 __'is_depression = 1':__
 
-![](./img/cloud-Depression.png)
+<div>
+<img src="./img/cloud-Depression.png" width="600"/>
+</div>
 
 __'is_depression = 0':__
 
-![](./img/cloud-Undiag.png)
+<div>
+<img src="./img/cloud-Undiag.png" width="600"/>
+</div>
 
 ### Modeling
 The baseline model, the _Multinomial Naive Bayes Model_ (when trained on the adjusted, preprocessed data with problematic words removed), produced a __74% Accuracy Score with a 72% Recall score__, which is better than the 50% score that random guessing would produce, but leaves room for improvement. The confusion matrix for this model is below:
